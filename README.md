@@ -1,5 +1,7 @@
 # Go-Enodo
 
+<p align="center"><img src="https://github.com/siridb/siridb-enodo-hub/raw/master/assets/logo_full.png" alt="Enodo"></p>
+
 A Go client lib for the [SiriDB Enodo Platform](https://github.com/SiriDB/siridb-enodo-hub)
 
 ---------------------------------------
