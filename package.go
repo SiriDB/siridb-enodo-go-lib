@@ -2,7 +2,6 @@ package enodolib
 
 import (
 	"encoding/binary"
-	"fmt"
 )
 
 const (
@@ -37,7 +36,6 @@ func CreatePackage(packageID int, packageType int, data []byte) []byte {
 	pkg[4] = uint8(packageType)
 	pkg[5] = uint8(packageID)
 	copy(pkg[6:], data)
-	fmt.Print(pkg, len(pkg))
 
 	return pkg
 }
